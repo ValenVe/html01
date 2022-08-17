@@ -1,0 +1,40 @@
+body {
+    background: url(fondo.jpeg);
+}
+
+* {
+    font-family: 'Corbel';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    color: white;
+    line-height: 65px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    align-items: left;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.horas {
+    font-size: 20px;
+}
+
+h1,
+h2 {
+    font-size: 34px;
+}
